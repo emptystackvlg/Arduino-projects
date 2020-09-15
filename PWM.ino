@@ -17,7 +17,6 @@ void setup() {
 }
 
 void loop() {
-  while (true){
     
     for (i = 0 ; i < 256 ; i = i+1)
     {
@@ -56,5 +55,5 @@ void loop() {
           analogWrite (3 , i ) ;
           
         }
-      }
+      
     }
